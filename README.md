@@ -6,9 +6,11 @@ Note: This repo requires updating. This repo now stands on its own. The Expired 
 
 Expired To Be provides notification reminders for your expiring items at a time of your choosing. It is available as:
 
-  - A Chrome browser extension (available for free from the [Chrome Web Store](https://chrome.google.com/webstore/detail/expired-to-be/kamjiblbgmiobifooelpmlkojmadmcan))
+  - A standalone web app (available via a [(GitHub-hosted) web page](https://KDCinfo.github.io/expired-to-be-spa/))
 
-  - A standalone web app (available via a [(GitHub-hosted) web page](https://KDCinfo.github.io/expired-to-be/))
+> Note: It is also available as:
+
+  - A Chrome browser extension (available for free from the [Chrome Web Store](https://chrome.google.com/webstore/detail/expired-to-be/kamjiblbgmiobifooelpmlkojmadmcan))
 
 ## Overview
 
@@ -16,7 +18,7 @@ Expired To Be provides notification reminders for your expiring items at a time 
 
   - Notifications are set to an expiration date that you provide, minus your chosen 'lead time'.
 
-  - Expired To Be is [open source](https://github.com/KDCinfo/expired-to-be), so feel free to fork it, or, PR's are welcome as well.
+  - Expired To Be is [open source](https://github.com/KDCinfo/expired-to-be-spa), so feel free to fork it, or, PR's are welcome as well.
 
 **Primary features:**
 
@@ -47,7 +49,7 @@ The primary notification for when an item expires is an orange number count that
 
 ## X2B [A Web App]
 
-The [web version of the app](https://KDCinfo.github.io/expired-to-be/) (SPA) can be run in any browser, was written with React 16.2 (w/ TypeScript), was built on top of [Create React App](https://github.com/facebookincubator/create-react-app), and is hosted via GitHub Pages bootstrapped with Travis CI.
+The [web version of the app](https://KDCinfo.github.io/expired-to-be-spa/) (SPA) can be run in any browser, was written with React 16.2 (w/ TypeScript), was built on top of [Create React App](https://github.com/facebookincubator/create-react-app), and is hosted via GitHub Pages bootstrapped with Travis CI.
 
 [SPA Integration Diagram](/public/x2b/expired-to-be_page-load_07.svg): Integration between the **React Alarms API** and the **Chrome Extension core files**.
 
