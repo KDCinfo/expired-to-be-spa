@@ -11,7 +11,7 @@
   "fixtures": [
     {
       "name": "Running Tests on: Expired To Be",
-      "path": "/var/www/html/react/extensions/chrome/expired-to-be/x2b-test.js",
+      "path": "/var/www/html/react/extensions/chrome/expired-to-be-spa/x2b-test.js",
       "tests": [
         {
           "name": "Lead Times",
