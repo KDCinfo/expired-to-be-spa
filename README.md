@@ -1,6 +1,8 @@
-[![Build Status](https://travis-ci.org/KDCinfo/expired-to-be.svg?branch=master)](https://travis-ci.org/KDCinfo/expired-to-be)
+[![Build Status](https://travis-ci.org/KDCinfo/expired-to-be-spa.svg?branch=master)](https://travis-ci.org/KDCinfo/expired-to-be-spa)
 
-# Expired To Be
+Note: This repo requires updating. This repo now stands on its own. The Expired To Be Chrome browser extension will be extended out to include two more facets of that extension ("Before I go..." and "Hungry-on-Hand"; both TBA as of 2020-01-27).
+
+# Expired To Be - SPA Version
 
 Expired To Be provides notification reminders for your expiring items at a time of your choosing. It is available as:
 
