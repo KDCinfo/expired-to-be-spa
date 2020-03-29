@@ -1,8 +1,20 @@
 [![Build Status](https://travis-ci.org/KDCinfo/expired-to-be-spa.svg?branch=master)](https://travis-ci.org/KDCinfo/expired-to-be-spa)
 
-Note: This repo requires updating. This repo now stands on its own. The Expired To Be Chrome browser extension will be extended out to include two more facets of that extension ("Before I go..." and "Hungry-on-Hand"; both TBA as of 2020-01-27).
+> Expired To Be was initially created as a Chrome browser extension in a personal effort to continue learning how to make browser extensions.
+
+> A single-page application (SPA) version was created to expand the accessibility of Expired To Be. It was also created in a personal effort to continue learning React. The approach I decided to take was to wrap the browser extension inside a React Component (and timer and alarm component I'd written previously). It worked out really well.
+
+> As of Jan 2020, this SPA version of Expired To Be was forked<sup>*</sup> from its core. This SPA version of the app now stands on its own.
+
+> I have no plans to continue development on this (SPA) version of the project, least not at the time of this writing.
+
+> The Expired To Be core will continue to carry on in its original form as a Chrome browser extension at: https://github.com/KDCinfo/expired-to-be
+---
+<sup>*</sup> Due to GitHub restrictions, one's own repos cannot technically be "forked," ergo, this project was made via copy using: `GitHub top-right menu bar &rarr; Plus (+) sign (next to icon) &rarr; Import repo` (from GitHub&mdash;to GitHub).
 
 # Expired To Be - SPA Version
+
+Products you own, such as medicines, pantry and refrigerated items, etc., typically all come with expiration dates.
 
 Expired To Be provides notification reminders for your expiring items at a time of your choosing. It is available as:
 
@@ -24,9 +36,9 @@ Expired To Be provides notification reminders for your expiring items at a time 
 
   - Display listing of all expiration items:
 
-  	+ Expired items will be distinct, as will any item you are currently 'editing'.
-  	+ Items that have alarms set will show an 'orange or blue sun' near its 'active' status.
-  	+ You can edit, delete, and de/activate items individually.
+    + Expired items will be distinct, as will any item you are currently 'editing'.
+    + Items that have alarms set will show an 'orange or blue sun' near its 'active' status.
+    + You can edit, delete, and de/activate items individually.
 
   - Expiration items are stored in the browser's own storage. There are no connections to any 3rd party services.
 
