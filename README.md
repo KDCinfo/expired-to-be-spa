@@ -19,8 +19,10 @@ As of Jan 2020, this SPA version of Expired To Be was forked<sup>*</sup> from it
 I have no plans to continue development on this (SPA) version of Expired To Be&mdash;least not at the time of this writing.
 
 The Expired To Be core will continue to carry on in its original form as a Chrome browser extension at: https://github.com/KDCinfo/expired-to-be
+
 ---
-  - <sup>*</sup> Due to GitHub restrictions, one's own repos cannot technically be "forked," ergo, this project was made via copy using: `GitHub top-right menu bar --> Plus (+) sign (next to icon) --> Import repo` (from GitHub&mdash;to GitHub).
+
+- <sup>*</sup> Due to GitHub restrictions, one's own repos cannot technically be "forked," ergo, this project was made via copy using: `GitHub top-right menu bar --> Plus (+) sign (next to icon) --> Import repo` (from GitHub&mdash;to GitHub).
 
 ## App Availability
 
