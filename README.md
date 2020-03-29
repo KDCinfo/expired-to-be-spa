@@ -14,6 +14,8 @@ A single-page application (SPA) version was then also created to expand the acce
 
 The approach I decided to take to create the SPA was to wrap the browser extension inside a React component&mdash;a timer and alarm component I'd written previously. It worked out really well.
 
+---
+
 As of Jan 2020, this SPA version of Expired To Be was forked<sup>*</sup> from its core. This SPA version of the app now stands on its own.
 
 I have no plans to continue development on this (SPA) version of Expired To Be&mdash;least not at the time of this writing.
