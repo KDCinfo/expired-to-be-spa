@@ -1,28 +1,32 @@
 [![Build Status](https://travis-ci.org/KDCinfo/expired-to-be-spa.svg?branch=master)](https://travis-ci.org/KDCinfo/expired-to-be-spa)
 
-## Expired To Be: Venues
+# Expired To Be
 
-> Expired To Be was initially created as a Chrome browser extension in a personal effort&mdash;as a web developer&mdash;to continue learning how to make browser extensions.
+Products that you own, such as medicines, pantry and refrigerated items, etc., typically come with expiration dates.
 
-> A single-page application (SPA) version was created to expand the accessibility of Expired To Be. It was also created in a personal effort to continue learning React. The approach I decided to take was to wrap the browser extension inside a React Component (and timer and alarm component I'd written previously). It worked out really well.
+Expired To Be provides notification reminders for your expiring items at a time of your choosing.
 
-> As of Jan 2020, this SPA version of Expired To Be was forked<sup>*</sup> from its core. This SPA version of the app now stands on its own.
+## Venues
 
-> I have no plans to continue development on this (SPA) version of the project, least not at the time of this writing.
+Expired To Be was initially created as a Chrome browser extension in a personal effort&mdash;as a web developer&mdash;to continue learning how to make browser extensions.
 
-> The Expired To Be core will continue to carry on in its original form as a Chrome browser extension at: https://github.com/KDCinfo/expired-to-be
+A single-page application (SPA) version was then also created to expand the accessibility of Expired To Be. It was also created in a personal effort to continue learning the React development framework.
+
+The approach I decided to take to create the SPA was to wrap the browser extension inside a React component&mdash;a timer and alarm component I'd written previously. It worked out really well.
+
+As of Jan 2020, this SPA version of Expired To Be was forked<sup>*</sup> from its core. This SPA version of the app now stands on its own.
+
+I have no plans to continue development on this (SPA) version of Expired To Be&mdash;least not at the time of this writing.
+
+The Expired To Be core will continue to carry on in its original form as a Chrome browser extension at: https://github.com/KDCinfo/expired-to-be
 ---
-<sup>*</sup> Due to GitHub restrictions, one's own repos cannot technically be "forked," ergo, this project was made via copy using: `GitHub top-right menu bar &rarr; Plus (+) sign (next to icon) &rarr; Import repo` (from GitHub&mdash;to GitHub).
+  - <sup>*</sup> Due to GitHub restrictions, one's own repos cannot technically be "forked," ergo, this project was made via copy using: `GitHub top-right menu bar --> Plus (+) sign (next to icon) --> Import repo` (from GitHub&mdash;to GitHub).
 
-# Expired To Be: SPA Version
+## App Availability
 
-Products you own, such as medicines, pantry and refrigerated items, etc., typically all come with expiration dates.
+  - A standalone web app is available at [(GitHub-hosted) web page](https://KDCinfo.github.io/expired-to-be-spa/)
 
-Expired To Be provides notification reminders for your expiring items at a time of your choosing. It is available as:
-
-  - A standalone web app (available via a [(GitHub-hosted) web page](https://KDCinfo.github.io/expired-to-be-spa/))
-
-> Note: It is also available as:
+It is also available as:
 
   - A Chrome browser extension (available for free from the [Chrome Web Store](https://chrome.google.com/webstore/detail/expired-to-be/kamjiblbgmiobifooelpmlkojmadmcan))
 
