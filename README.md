@@ -14,7 +14,7 @@ A single-page application (SPA) version was then also created to expand the acce
 
 The approach I decided to take to create the SPA was to wrap the browser extension inside a React component&mdash;a timer and alarm component I'd written previously. It worked out really well.
 
----
+## Venue Updates
 
 As of Jan 2020, this SPA version of Expired To Be was forked<sup>*</sup> from its core. This SPA version of the app now stands on its own.
 
@@ -28,11 +28,9 @@ The Expired To Be core will continue to carry on in its original form as a Chrom
 
 ## App Availability
 
-  - A standalone web app is available at [(GitHub-hosted) web page](https://KDCinfo.github.io/expired-to-be-spa/)
+  - [This SPA Version](https://KDCinfo.github.io/expired-to-be-spa/) - A GitHub-hosted standalone web page.
 
-It is also available as:
-
-  - A Chrome browser extension (available for free from the [Chrome Web Store](https://chrome.google.com/webstore/detail/expired-to-be/kamjiblbgmiobifooelpmlkojmadmcan))
+  - [Chrome Browser Extension](https://chrome.google.com/webstore/detail/expired-to-be/kamjiblbgmiobifooelpmlkojmadmcan) - Open source and available on the Chrome Web Store for free.
 
 ## Overview
 
