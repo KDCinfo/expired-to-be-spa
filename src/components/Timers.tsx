@@ -61,7 +61,7 @@ class Timers extends React.Component<TimersProps, TimersState> {
                                         <div>
                                             <span>
                                                 <a
-                                                    href="https://KDCinfo.github.io/expired-to-be/"
+                                                    href="https://KDCinfo.github.io/expired-to-be-spa/"
                                                     onClick={(e) => { e.preventDefault(); return false; }}
                                                 >Expired To Be
                                                 </a> (Alarms)

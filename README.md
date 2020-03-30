@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/KDCinfo/expired-to-be-spa.svg?branch=master)](https://travis-ci.org/KDCinfo/expired-to-be-spa)
 
-# Expired To Be
+# Expired To Be - SPA Version
 
 Products that you own, such as medicines, pantry and refrigerated items, etc., typically come with expiration dates.
 
@@ -18,7 +18,7 @@ The approach I decided to take to create the SPA was to wrap the browser extensi
 
 As of Jan 2020, the SPA version of Expired To Be was forked<sup>[1]</sup> from its core. The SPA version of the app now stands on its own (i.e. this repo).
 
-I have no plans to continue development on this (SPA) version of Expired To Be&mdash;least not at the time of this writing.
+Short of Pull&mdash;or developer contributor&mdash;Requests, **I have no plans to continue development on this (SPA) version of Expired To Be**&mdash;least not at the time of this writing.
 
 The Expired To Be core will continue to carry on in its original form as a Chrome browser extension at: https://github.com/KDCinfo/expired-to-be
 
@@ -243,3 +243,11 @@ The Web App version of X2B provides for opt-in browser-level Notifications, or j
 ### 2.2.2
 
 - Fixed import error.
+
+### 2.2.3
+
+- Got project working again after splitting out the project from its [core expired-to-be Chrome browser extension](https://KDCinfo.github.io/expired-to-be/).
+
+  Quite a few React and Bootstrap components have either been deprecated or rendered obsolete since last running the SPA version of this project in March 2018 (2 years).
+
+  To Note: Short of Pull&mdash;or developer contributor&mdash;Requests, this will likely be the last update for **this version** of Expired To Be.

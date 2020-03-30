@@ -11,7 +11,7 @@ import TimerBox from './components/TimerBox';
 /**
  * [TimerBox] Alarm API Usage Details:
  *
- * https://github.com/KDCinfo/expired-to-be/src
+ * https://github.com/KDCinfo/expired-to-be-spa/src
  *
  */
 

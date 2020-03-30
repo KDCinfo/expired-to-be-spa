@@ -1,6 +1,7 @@
 import * as React from 'react';
 
-import { Glyphicon } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 import TimeDisplay from './TimeDisplay';
 
@@ -86,6 +87,8 @@ class Timer extends React.Component<TimerProps, {}> {
 // const { username, url } = this.propos.gist,
 //       userurl = (url === noGistMsg) ? noGistMsg : <a href={}>{}</a>;
 
+        const glyphElement = <FontAwesomeIcon icon={faCoffee} />;
+
         return (
             <tr>
                 {timerTDs}
@@ -105,7 +108,7 @@ class Timer extends React.Component<TimerProps, {}> {
                         className="btn btn-xs"
                         onClick={this.removeTimer}
                     >
-                        <Glyphicon glyph="remove" />
+                        {glyphElement}
                     </button>
                 </td>
             </tr>

@@ -92,26 +92,26 @@ class TimerAlertPrompt extends React.Component<ModalProps, {}> {
                 <div className="modal-subtitle">[{timerEntryTime}]&nbsp;[{cycleName}]</div>
               ),
               ButtonSnooze = () => (
-                <Button onClick={this.timerSnooze} bsStyle="warning">
+                <Button onClick={this.timerSnooze} variant="warning">
                     Snooze <small><small>({this.props.snoozeTime} min)</small></small>
                 </Button>
               ),
               ButtonDoneForNow = () => {
                 return (
-                    <Button onClick={this.timerReset} bsStyle="success">
+                    <Button onClick={this.timerReset} variant="success">
                         Done <small><small>(for now)</small></small>
                     </Button>
                 );
               },
               ButtonCloseModal = () => {
                 return (
-                    <Button onClick={this.props.resetModal} bsStyle="success">
+                    <Button onClick={this.props.resetModal} variant="success">
                         Expiration Alert!
                     </Button>
                 );
               },
               ButtonDisable = () => (
-                <Button onClick={this.timerDisable} bsStyle="default">
+                <Button onClick={this.timerDisable} variant="primary">
                     Disable
                 </Button>
               );

@@ -12,7 +12,7 @@ import TimerAlertPrompt from './TimerAlertPrompt';
 /**
  * [TimerBox] Alarm API Usage Details:
  *
- * https://github.com/KDCinfo/expired-to-be/src
+ * https://github.com/KDCinfo/expired-to-be-spa/src
  *
  */
 
@@ -109,12 +109,11 @@ class TimerBox extends React.Component<TimerBoxProps, TimerBoxState> {
     componentDidMount() {
         this.initializeState();
     }
-    componentWillReceiveProps(nextProps: any) {
+    componentDidUpdate(prevProps: any) {
+        if (prevProps.ourExpirationItems.length > 0) {
 
-        if (nextProps.ourExpirationItems.length > 0) {
-
-            if (nextProps.ourExpirationItems[0].expiredId !== this.state.currentTimerId) {
-                const nPxId = nextProps.ourExpirationItems[0].expiredId;
+            if (prevProps.ourExpirationItems[0].expiredId !== this.state.currentTimerId) {
+                const nPxId = prevProps.ourExpirationItems[0].expiredId;
 
                 this.setState({ currentTimerId: nPxId }, () => {
                     this.handleAppUpdate();
@@ -124,6 +123,21 @@ class TimerBox extends React.Component<TimerBoxProps, TimerBoxState> {
             this.setState({ currentTimerId: 0 });
         }
     }
+    // componentWillReceiveProps(nextProps: any) {
+
+    //     if (nextProps.ourExpirationItems.length > 0) {
+
+    //         if (nextProps.ourExpirationItems[0].expiredId !== this.state.currentTimerId) {
+    //             const nPxId = nextProps.ourExpirationItems[0].expiredId;
+
+    //             this.setState({ currentTimerId: nPxId }, () => {
+    //                 this.handleAppUpdate();
+    //             });
+    //         }
+    //     } else {
+    //         this.setState({ currentTimerId: 0 });
+    //     }
+    // }
     shouldComponentUpdate(nextProps: any, nextState: any) {
 
         if (nextProps.ourExpirationItems.length > 0) {
@@ -957,11 +971,12 @@ class TimerBox extends React.Component<TimerBoxProps, TimerBoxState> {
                                 <SettingsForm {...SettingsFormProps} />
                             </Col>
                             <Col
-                                xsOffset={1}
-                                xs={10}
-                                smOffset={0}
-                                sm={7}
-                                md={7}
+                                xs={{ offset: 1, span: 10 }}
+                                sm={{ span: 7 }}
+                                md={{ span: 7 }}
+                                // xsOffset={1} xs={10}
+                                // smOffset={0} sm={7}
+                                // md={7}
                                 className={`field-col timer-list`}
                                 // className={`field-col timer-list ${this.state.timerList.length === 0 && 'hidden'}`}
                             >

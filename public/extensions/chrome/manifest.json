@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Expired To Be",
+  "name": "Expired To Be SPA",
   "version": "2.2.2",
   "icons": { "16": "icon16.png",
              "32": "icon32.png",
@@ -20,7 +20,7 @@
     "alarms"
   ],
   "author": "Keith D Commiskey (https://kdcinfo.com)",
-  "homepage_url": "https://github.com/KDCinfo/expired-to-be",
-  "short_name": "ExpiredToBe",
+  "homepage_url": "https://github.com/KDCinfo/expired-to-be-spa",
+  "short_name": "ExpiredToBeSpa",
   "description": "A quick and convenient way to set and be reminded of expiration dates."
 }

@@ -14,7 +14,7 @@ The 'Timers API' is used in the [Done (for now)](https://github.com/KDCinfo/done
 
 ## Alarms (e.g., for Expired Items)
 
-The 'Alarms API' is used in the [Expired To Be](https://github.com/KDCinfo/expired-to-be) Web App. The X2B app still contains the code for Timers (such as setting a recurring setTimeout, and snoozing), but Timers were not implemented as a part of Expired To Be. A separate API could be created from this `src`, and developed to support both Timers and Alarms.
+The 'Alarms API' is used in the [Expired To Be](https://github.com/KDCinfo/expired-to-be-spa) Web App. The X2B app still contains the code for Timers (such as setting a recurring setTimeout, and snoozing), but Timers were not implemented as a part of Expired To Be. A separate API could be created from this `src`, and developed to support both Timers and Alarms.
 
   - On | Off                    (setTimeout either exists or doesn't exist)
   - 0 Cycles                    [n > now() || n <= now()]

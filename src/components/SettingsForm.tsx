@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Form, FormGroup, Col, ControlLabel } from 'react-bootstrap';
+import { Form, FormGroup, Col } from 'react-bootstrap';
 
 interface SettingsFormState {
     entryTitle: string;
@@ -65,7 +65,7 @@ class SettingsForm extends React.Component<SettingsFormProps, SettingsFormState>
         const newObj = Object.assign({}, {...this.state}, {...this.initialState()});
         this.setState( newObj );
     }
-    updateEntry(evt: React.SyntheticEvent<HTMLSelectElement> | React.SyntheticEvent<HTMLInputElement>) {
+    updateEntry(evt: React.FormEvent<HTMLSelectElement> | React.FormEvent<HTMLInputElement>) {
         const targetName = evt.currentTarget.name;
 
         let newVal;
@@ -94,7 +94,7 @@ class SettingsForm extends React.Component<SettingsFormProps, SettingsFormState>
         }
         // this.setState({ [targetName]: newVal });
     }
-    submitEntry(evt: React.SyntheticEvent<Form>) {
+    submitEntry(evt: React.FormEvent) {
         evt.preventDefault();
 
         if ( typeof(this.state.entryTitle) !== 'string' || this.state.entryTitle.length === 0 ) {
@@ -156,10 +156,10 @@ class SettingsForm extends React.Component<SettingsFormProps, SettingsFormState>
             countDownChars = (this.props.titleCount - (entryTitleExists ? entryTitleExists.length : 0));
 
         return (
-            <Form onSubmit={this.submitEntry} horizontal={true}>
+            <Form onSubmit={this.submitEntry}>
                 <h2 className="hidden">Create a Timer</h2>
                 <FormGroup controlId="formHorizontalTimerTitle">
-                    <Col xs={5} sm={4} md={5} componentClass={ControlLabel}>
+                    <Col xs={5} sm={4} md={5}>
                         Timer Title <small>({countDownChars} chars)</small>
                     </Col>
                     <Col xs={7} sm={8} md={7}>
@@ -179,7 +179,7 @@ class SettingsForm extends React.Component<SettingsFormProps, SettingsFormState>
                     </Col>
                 </FormGroup>
                 <FormGroup controlId="formHorizontalTimerTime" className="formHorizontalTimerTime">
-                    <Col xs={5} sm={4} md={5} componentClass={ControlLabel}>
+                    <Col xs={5} sm={4} md={5}>
                         Time <small>(hrs/ mins/ cycle)</small>
                     </Col>
                     <Col xs={7} sm={8} md={7}>
@@ -221,7 +221,8 @@ class SettingsForm extends React.Component<SettingsFormProps, SettingsFormState>
                     </Col>
                 </FormGroup>
                 <FormGroup>
-                    <Col xsOffset={5} xs={7} smOffset={4} sm={8} mdOffset={5} md={7} className="add-button-div">
+                    {/* <Col xsOffset={5} xs={7} smOffset={4} sm={8} mdOffset={5} md={7} className="add-button-div"> */}
+                    <Col xs={{ offset: 5, span: 7 }} sm={{ offset: 4, span: 8 }} md={{ offset: 5, span: 7 }} className="add-button-div">
                         <div className="label hidden">Add It!!!</div>
                         <button id="entryButton" className="btn">Add Your Timer</button>
                     </Col>
