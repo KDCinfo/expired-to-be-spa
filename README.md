@@ -12,17 +12,17 @@ Expired To Be was initially created as a Chrome browser extension in a personal 
 
 A single-page application (SPA) version was then also created to expand the accessibility of Expired To Be. It was also created in a personal effort to continue learning the React development framework.
 
-The approach I decided to take to create the SPA was to wrap the browser extension inside a React component&mdash;a timer and alarm component I'd written previously. It worked out really well.
+The approach I decided to take to create the SPA was to wrap the browser extension inside a React component&mdash;based on a timer and alarm component I'd written previously. It worked out really well.
 
 ## Venue Updates
 
-As of Jan 2020, this SPA version of Expired To Be was forked<sup>*</sup> from its core. This SPA version of the app now stands on its own.
+As of Jan 2020, the SPA version of Expired To Be was forked<sup>[1]</sup> from its core. The SPA version of the app now stands on its own (i.e. this repo).
 
 I have no plans to continue development on this (SPA) version of Expired To Be&mdash;least not at the time of this writing.
 
 The Expired To Be core will continue to carry on in its original form as a Chrome browser extension at: https://github.com/KDCinfo/expired-to-be
 
-- <sup>*</sup> Due to GitHub restrictions, one's own repos cannot technically be "forked," ergo, this project was made via copy using: `GitHub top-right menu bar --> Plus (+) sign (next to icon) --> Import repo` (from GitHub&mdash;to GitHub).
+  > <sup>[1]</sup> Due to GitHub restrictions, one's own repos cannot technically be "forked," ergo, this project was made via copy using: `GitHub top-right menu bar --> Plus (+) sign (next to icon) --> Import repo` (from GitHub&mdash;to GitHub).
 
 ---
 
