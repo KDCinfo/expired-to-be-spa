@@ -1124,8 +1124,9 @@ interface TimerBoxProps {
     triggerAlarm: (timerId: number) => void;    // Promise<string>;
     updatePassiveNotification: () => void;      // Update browser tab icon and title.
     // resetPassiveNotification: () => void;    // Reset browser tab icon and title.
+    children?: React.ReactNode;
 }
-
+  
 interface ExpirationItems {
     whichEvent: string;   // "add"
     expiredId: number;    // 2
