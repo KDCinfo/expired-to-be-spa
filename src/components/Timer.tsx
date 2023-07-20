@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faCoffee } from '@fortawesome/fontawesome-free-solid';
 
 import TimeDisplay from './TimeDisplay';
 
