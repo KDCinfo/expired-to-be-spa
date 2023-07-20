@@ -1,6 +1,6 @@
 {
   "name": "expired-to-be-spa",
-  "version": "2.2.5",
+  "version": "2.2.51",
   "description": "An expiration reminder web app.",
   "private": true,
   "dependencies": {
