@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/fontawesome-free-solid';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 import TimeDisplay from './TimeDisplay';
 
@@ -87,7 +87,7 @@ class Timer extends React.Component<TimerProps, {}> {
 // const { username, url } = this.propos.gist,
 //       userurl = (url === noGistMsg) ? noGistMsg : <a href={}>{}</a>;
 
-        const glyphElement = <FontAwesomeIcon icon={faCoffee} />;
+        // const glyphElement = <FontAwesomeIcon icon={faCoffee} />;
 
         return (
             <tr>
@@ -108,7 +108,7 @@ class Timer extends React.Component<TimerProps, {}> {
                         className="btn btn-xs"
                         onClick={this.removeTimer}
                     >
-                        {glyphElement}
+                        &mdash; =] &mdash;
                     </button>
                 </td>
             </tr>
